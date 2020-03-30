@@ -3,9 +3,9 @@ Covid-19 Tracker is a simple tracking Android application that lets you be updat
 
 Screenshots:
 
-<img src="Screenshots/Screenshot_20200330-175204.jpg" width="100">
-<img src="Screenshots/Screenshot_20200330-175210.jpg" width="100">
-<img src="Screenshots/Screenshot_20200330-175215.jpg" width="100">
+<p float="left">
+<img src="Screenshots/Screenshot_20200330-175204.jpg" width="100"/>
+<img src="Screenshots/Screenshot_20200330-175215.jpg" width="100"/>
 <img src="Screenshots/Screenshot_20200330-175220.jpg" width="100">
 <img src="Screenshots/Screenshot_20200330-175229.jpg" width="100">
 <img src="Screenshots/Screenshot_20200330-175235.jpg" width="100">
@@ -15,3 +15,4 @@ Screenshots:
 <img src="Screenshots/Screenshot_20200330-175312.jpg" width="100">
 <img src="Screenshots/Screenshot_20200330-175324.jpg" width="100">
 <img src="Screenshots/Screenshot_20200330-175338.jpg" width="100">
+  </p>
