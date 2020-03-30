@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app = "http://schemas.android.com/apk/res-auto"
+xmlns:tool = "http://schemas.android.com/apk/tools"
+tool:context = ".ContentActivity">
+        <item
+                android:id="@+id/about"
+                android:orderInCategory="300"
+                app:showAsAction="ifRoom"
+                android:title="Developer"
+                android:icon="@drawable/heart"/>
+        <item
+                android:id="@+id/tollNumbers"
+                android:title="Emergency Numbers"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/phone"/>
+        <item
+                android:id="@+id/developer"
+                android:title="Buy me a coffee"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/alert_circle_outline"/>
+</menu>
