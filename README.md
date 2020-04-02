@@ -18,3 +18,13 @@ Covid-19 Tracker is a simple tracking Android application that lets you be updat
 <img src="Screenshots/Screenshot_20200330-175324.jpg" width="100">
 <img src="Screenshots/Screenshot_20200330-175338.jpg" width="100">
   </p>
+  
+  
+  
+  
+  
+  
+ [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-150x25.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
+
+
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-175x39.png?v=103)](https://opensource.org/licenses/mit-license.php)
