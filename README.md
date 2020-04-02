@@ -3,7 +3,7 @@ Covid-19 Tracker is a simple tracking Android application that lets you be updat
 
 Download it: https://bit.ly/2QUSwzN
 
-Screenshots:
+**Screenshots:**  :rocket:
 
 <p float="left">
 <img src="Screenshots/Screenshot_20200330-175204.jpg" width="100"/>
