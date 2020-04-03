@@ -43,7 +43,6 @@ public class ContentActivity extends AppCompatActivity {
     EditText editTextSearch;
 
     private static final String URL = "https://covid2019-api.herokuapp.com/v2/current";
-    //private static final String URL2 = "https://corona.lmao.ninja/countries";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
