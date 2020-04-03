@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.kanyideveloper.covid_19tracker">
+    package="com.kanyideveloper.covid_19tracker">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/covid19"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".ContentActivity">
-        </activity>
-        <activity android:name=".SplashActivity">
+        android:allowBackup="true"
+        android:icon="@mipmap/covid19"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--        <activity android:name=".kotlin.SplashActivity"/>-->
+        <activity android:name=".kotlin.MainActivity"/>
+        <activity android:name=".kotlin.ContentActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ContentActivity"/>
+        <activity android:name=".kotlin.SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
