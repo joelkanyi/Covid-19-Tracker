@@ -94,7 +94,7 @@
                     android:layout_width="70dp"
                     android:layout_height="5dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/orangeline"/>
+                    android:background="@drawable/blue"/>
 
         </LinearLayout>
 
@@ -125,7 +125,7 @@
             <TextView
                     android:layout_width="70dp"
                     android:layout_height="5dp"
-                    android:background="@drawable/blue"
+                    android:background="@drawable/redline"
                     android:layout_marginBottom="10dp"/>
         </LinearLayout>
 
