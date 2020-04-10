@@ -2,6 +2,7 @@ package com.kanyideveloper.covid_19tracker.kotlin
 
 import android.view.View
 import android.widget.GridLayout
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.kanyideveloper.covid_19tracker.R
@@ -15,6 +16,7 @@ class RecyclerViewHolder(itemView: View, private val statisticsListObject: List<
     var totalCases: TextView
     var deaths: TextView
     var gridLayout: GridLayout
+    var imageViewFlag: ImageView
 
     init {
         country = itemView.findViewById(R.id.countryTextField)
@@ -23,6 +25,7 @@ class RecyclerViewHolder(itemView: View, private val statisticsListObject: List<
         totalCases = itemView.findViewById(R.id.totalCases)
         deaths = itemView.findViewById(R.id.deathCases)
         gridLayout = itemView.findViewById(R.id.grid_layout)
+        imageViewFlag = itemView.findViewById(R.id.imageViewFlag)
     }
 
 }

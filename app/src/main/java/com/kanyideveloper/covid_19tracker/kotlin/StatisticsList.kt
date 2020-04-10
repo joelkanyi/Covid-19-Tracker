@@ -5,4 +5,5 @@ class StatisticsList(
         var activeCase: String?,
         var recovered: String?,
         var deaths: String?,
-        var totalCases: String?)
+        var totalCases: String?,
+        var imageUrl: String?)

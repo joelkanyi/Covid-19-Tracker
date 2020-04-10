@@ -11,15 +11,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
         <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Kenya"
                 android:id="@+id/countryTextField"
                 android:textColor="#fff"
                 android:textSize="22sp"/>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="3dp"
+            android:id="@+id/imageViewFlag"
+            android:layout_height="20dp"
+            android:layout_width="50dp"/>
+
     </LinearLayout>
 
     <GridLayout
