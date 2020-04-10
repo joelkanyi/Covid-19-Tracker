@@ -23,18 +23,17 @@ import com.android.volley.toolbox.Volley
 import com.kanyideveloper.covid_19tracker.R
 import com.shashank.sony.fancydialoglib.FancyAlertDialog
 import com.shashank.sony.fancydialoglib.Icon
+import org.json.JSONArray
 import org.json.JSONException
-import org.json.JSONObject
 
 class ContentActivity : AppCompatActivity() {
 
-    private val TAG = "good"
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: RecyclerViewAdapter
     private lateinit var statisticsList: ArrayList<StatisticsList>
     lateinit var editTextSearch: EditText
 
-    private val URL = "https://covid2019-api.herokuapp.com/v2/current"
+    private val URL = "https://corona.lmao.ninja/countries"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,7 +57,7 @@ class ContentActivity : AppCompatActivity() {
             }
         })
 
-        getData()
+        getMyData()
     }
 
     fun filter(e: String) {
@@ -71,7 +70,7 @@ class ContentActivity : AppCompatActivity() {
         adapter.filterList(filteredList)
     }
 
-    private fun getData() {
+    private fun getMyData() {
         val progressDialog = ProgressDialog(this)
         progressDialog.setMessage("Loading...")
         progressDialog.show()
@@ -80,16 +79,22 @@ class ContentActivity : AppCompatActivity() {
             Log.e("CurrentData", "Response: $response")
             try {
                 recyclerView = findViewById(R.id.recyclerView)
-                val jsonObject = JSONObject(response)
-                val jsonArray = jsonObject.getJSONArray("data")
+                val jsonArray = JSONArray(response)
                 for (i in 0 until jsonArray.length()) {
-                    val jsonObject1 = jsonArray.getJSONObject(i)
-                    val statisticsList1 = StatisticsList(jsonObject1.getString("location"), jsonObject1.getString("active"),
-                            jsonObject1.getString("recovered"), jsonObject1.getString("deaths"), jsonObject1.getString("confirmed"))
+
+                    val jsonObjectDetails = jsonArray.getJSONObject(i)
+                    Log.d("Details", jsonObjectDetails.toString())
+                    val jsonObjectFlag = jsonObjectDetails.getJSONObject("countryInfo")
+                    Log.d("Flag", jsonObjectFlag.toString())
+                    val flagUrl = jsonObjectFlag.getString("flag")
+
+                    val statisticsList1 = StatisticsList(jsonObjectDetails.getString("country"), jsonObjectDetails.getString("active"),
+                            jsonObjectDetails.getString("recovered"), jsonObjectDetails.getString("deaths"), jsonObjectDetails.getString("cases"), flagUrl)
                     statisticsList.add(statisticsList1)
                 }
                 adapter = RecyclerViewAdapter(applicationContext, statisticsList)
                 recyclerView.adapter = adapter
+
             } catch (e: JSONException) {
                 e.printStackTrace()
             }
