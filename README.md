@@ -1,7 +1,7 @@
 # Covid-19-Tracker :mask:
 Covid-19 Tracker is a simple tracking Android application that lets you be updated on the current spread of Corona virus in different countries<br></br>
-**.............................................. ....... **<br></br>
-**V1.5.0 On the way**<br></br>
+
+
 *V1.0.0 Download it: https://bit.ly/2QUSwzN*
 
 
