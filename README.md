@@ -1,12 +1,9 @@
 # Covid-19-Tracker :mask:
 Covid-19 Tracker is a simple tracking Android application that lets you be updated on the current spread of Corona virus in different countries<br></br>
 
+Download it here: https://bit.ly/2QUSwzN*
 
-*V1.0.0 Download it: https://bit.ly/2QUSwzN*
-
-
-**Screenshots:**  :rocket:
-
+**Demo Screens:**  :rocket:
 <p float="left">
 <img src="Screenshots/Screenshot_20200330-175204.jpg" width="100"/>
 <img src="Screenshots/Screenshot_20200330-175215.jpg" width="100"/>
@@ -22,42 +19,26 @@ Covid-19 Tracker is a simple tracking Android application that lets you be updat
   </p>
   
   
-## Setup Requirements
-----------------
-
+### Setup Requirements
 - Android device or emulator
 - Android Studio
 
-## Getting Started
-----------------
-
+### Getting Started
 In order to get the app running yourself, you need to:
-
 1.  clone this project
 2.  Import the project into Android Studio
 3.  Connect the android device with USB or just use your emulator
 4.  In Android Studio, click on the "Run" button.
 
 
-## Support
---------
-
+### Support
 - Found this project useful ❤️? Support by clicking the ⭐️ button on the upper right of this page. ✌️
 
 - Notice anything else missing? File an issue 
 
-## Get in touch - Let's become friends
------------------------------------
-
+### Get in touch - Let's become friends
 Please feel free to contact me if you have any questions, ideas or even if you just want to say hi. I’m up for talking, exchange ideas, collaborations or consults. You can connect with me through any of the avenues listed below:
 - [Twitter](https://twitter.com/_joelkanyi)
 - [Github](https://github.com/JoelKanyi)
 - [Facebook](https://www.facebook.com/joel.kanyi.71)
 - [LinkedIn](https://www.linkedin.com/in/joel-kanyi-037270174/) 
-
-
- 
- [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-150x25.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
-
-
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-175x39.png?v=103)](https://opensource.org/licenses/mit-license.php)
